@@ -6,8 +6,29 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+<header>
+  <h1>Analizador de texto</h1>
+</header>
 
 <body>
+  <main>
+    
+      <ul>
+        <li data-testid="word-count">Recuento de palabras </li>
+        <li data-testid="character-count">Recuento de caracteres</li>
+        <li data-testid="character-no-spaces-count">Caracteres sin espacios </li>
+        <li data-testid="number-count">Recuento de numeros</li>
+        <li data-testid="number-sum">Suma total de numeros</li>
+        <li data-testid="word-length-average">Promedios longitud</li>
+      </ul>
+      <textarea name="user-input" cols="40" rows="10" placeholder="Ingresa texto"></textarea>
+      <button id="reset-button"> Limpiar Contenido</button>
+    
+  </main>
+  <footer>
+    <p>Maria Jose Llanos</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
+
 </html>

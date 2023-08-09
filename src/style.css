@@ -1,0 +1,40 @@
+body {
+    background: url(./imagenes/fondo-text.jpg);
+
+
+}
+
+h1{
+text-align: center;
+font-family: fantasy;
+
+}
+ textarea{
+    margin: auto;
+    border:2px solid rgb(59, 87, 121);
+    border-radius: 5px;
+    display: block;
+ }
+footer{
+text-align:center;
+font-family: fantasy;
+}
+
+li{
+    text-align:center;
+    list-style:none;
+    font-family: Arial;
+    margin: 10px;
+}
+
+   
+main{
+  
+    text-align: center;
+    
+}
+
+ 
+
+    
+ 

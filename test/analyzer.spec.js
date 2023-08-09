@@ -20,7 +20,7 @@ describe('analyzer', () => {
       expect(analyzer.getCharacterCount(TEST_TEXT_NO_NUMBERS)).toBe(123);
     });
   });
-
+  //describe.only para ejecutar solo ese test
   describe('analyzer.getCharacterCountExcludingSpaces', () => {
     it('debería retornar 102 para "' + TEST_TEXT_NO_NUMBERS + '"', () => {
       expect(analyzer.getCharacterCountExcludingSpaces(TEST_TEXT_NO_NUMBERS)).toBe(102);
